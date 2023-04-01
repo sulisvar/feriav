@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Productos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="producto.component.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+<!-- web font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+<!-- //web font -->
+</head>
+<body>
+	<!-- main -->
+	<div class="main-w3layouts wrapper">
+		<h1>Ingresar Producto</h1>
+		<div class="main-agileinfo">
+			<div class="agileits-top">
+				<form action="#" method="post">
+					<input class="text w3lpass" type="text" name="Id Producto" placeholder="Id Producto" required="">
+					<tr>			 
+						<td><br>
+							<select name="Categoria" id="Categoria" style="width: 150%;">
+								<option value="-1">Categoria:</option>
+								<option value="1">Premium</option>
+								<option value="2">Regular</option>
+								<option value="3">Baja</option>
+							</select>
+						</td>
+					</tr>
+					<input class="text w3lpass" type="text" name="Descripcion" placeholder="Descripcion" required="">
+					<input class="text w3lpass" type="text" name="Precio" placeholder="Precio" required="">
+					<input class="text w3lpass" type="text" name="Stock" placeholder="Stock" required=""><br>     
+                    <label style="color: white;">Subir imagen: </label>
+                    <div class="avatar"><input type="file" name="avatar" accept="image/*" required /></div>                                 
+					
+					
+
+					<input type="submit" value="Guardar">
+                    <input type="submit" value="Consultar">
+                    <input type="submit" value="Eliminar">
+                    <input type="submit" value="Modificar">
+				</form>
+			
+                <button>Volver</button>
+                 <a href="inicio"> Volver </a>
+
+			</div>
+		</div>
+		
+	</div>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
